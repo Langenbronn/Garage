@@ -1,8 +1,16 @@
 package Garage;
 
 public enum TypeMoteur {
-	DIESEL,
-	ESSENCE,
-	HYBRIDE,
-	ELECTRIQUE;
+	DIESEL ("DIESEL"),
+	ESSENCE ("ESSENCE"),
+	HYBRIDE ("HYBRIDE"),
+	ELECTRIQUE ("ELECTRIQUE");
+	private String name = "";
+
+	TypeMoteur(String name){
+		this.name = name;
+	}
+	public String toString(){
+	    return name;
+	  }
 }
