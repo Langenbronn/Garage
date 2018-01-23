@@ -1,4 +1,8 @@
-package Garage;
+
+
+import Garage.*;
+import Moteur.*;
+import Option.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,29 +15,29 @@ public class Main {
    	 lag1.addOption(new VitreElectrique());
    	 garage.add(lag1);
    		 
-/*   	 Vehicule A300B_2 = new A300B();
+   	 Vehicule A300B_2 = new A300B();
    	 A300B_2.setMoteur(new MoteurElectrique("1500 W", 1234d));
    	 A300B_2.addOption(new Climatisation());
    	 A300B_2.addOption(new BarreDeToit());
    	 A300B_2.addOption(new SiegeChauffant());
-   	 garage.addVoiture(A300B_2);
+   	 garage.add(A300B_2);
    	 
    	 Vehicule d4_1 = new D4();
    	 d4_1.setMoteur(new MoteurDiesel("200 Hdi", 25684.80d));
    	 d4_1.addOption(new BarreDeToit());
    	 d4_1.addOption(new Climatisation());
    	 d4_1.addOption(new GPS());
-   	 garage.addVoiture(d4_1);   	 
+   	 garage.add(d4_1);   	 
    	 
    	 Vehicule lag2 = new Lagouna();
    	 lag2.setMoteur(new MoteurDiesel("500 Hdi", 456987d));
-   	 garage.addVoiture(lag2);
+   	 garage.add(lag2);
    	 
    	 Vehicule A300B_1 = new A300B();
    	 A300B_1.setMoteur(new MoteurHybride("ESSENCE/Electrique", 12345.95d));
    	 A300B_1.addOption(new VitreElectrique());
    	 A300B_1.addOption(new BarreDeToit());
-   	 garage.addVoiture(A300B_1);
+   	 garage.add(A300B_1);
    	 
    	 Vehicule d4_2 = new D4();
    	 d4_2.setMoteur(new MoteurElectrique("100 KW", 1224d));
@@ -42,6 +46,6 @@ public class Main {
    	 d4_2.addOption(new Climatisation());
    	 d4_2.addOption(new GPS());
    	 d4_2.addOption(new VitreElectrique());
-   	 garage.addVoiture(d4_2);   	*/		 
+   	 garage.add(d4_2);   		 
     }
 }

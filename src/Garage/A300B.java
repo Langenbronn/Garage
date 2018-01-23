@@ -1,14 +1,14 @@
 package Garage;
 
-public class Lagouna extends Vehicule{
+public class A300B extends Vehicule{
 
-	public Lagouna() {
+	public A300B() {
 		super();
-		this.nom = "Lagouna";
+		this.nom = "A300B";
 		this.prix = 0;
 		this.nomMarque = this.getMarque().toString();
 	}
 	public Marque getMarque(){
-		return Marque.RENO;
+		return Marque.PIGEOT;
 	}
 }

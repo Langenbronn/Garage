@@ -1,6 +1,6 @@
-package Garage;
+package Option;
 
 public interface Option {
-//	double prix =12 ;
+	public String getName();
 	public Double getPrix();
 }

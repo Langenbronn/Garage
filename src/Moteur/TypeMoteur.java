@@ -1,4 +1,4 @@
-package Garage;
+package Moteur;
 
 public enum TypeMoteur {
 	DIESEL ("DIESEL"),
