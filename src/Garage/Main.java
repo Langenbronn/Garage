@@ -3,9 +3,7 @@ package Garage;
 public class Main {
     public static void main(String[] args) {
    	 Garage garage = new Garage();   
-	 System.out.println("***************************");
-	 System.out.println("* Garage OpenClassrooms   *");
-	 System.out.println("***************************");	 
+   	 System.out.println(garage);
    	 Vehicule lag1 = new Lagouna();
    	 lag1.setMoteur(new MoteurEssence("150 Chevaux", 10256d));
    	 lag1.addOption(new GPS());

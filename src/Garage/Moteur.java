@@ -6,7 +6,7 @@ public abstract class Moteur {
 	public Double prix;
 	
 	public String toString(){
-		return "Moteur ";
+		return "Moteur " + this.cylindre;
 	}
 	public Moteur(String cylindre, Double  prix){
 		this.cylindre = cylindre;

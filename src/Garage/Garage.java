@@ -10,7 +10,11 @@ public class Garage {
 	}
 
 	public String toString(){
-		return null;
+		String String;
+		String = "***************************" +"\n"+ 
+				"* Garage OpenClassrooms   *" +"\n"+
+				"***************************";
+		return String;
 	}
 	public void add(Vehicule voit){
 		voiture.add(voit);
